@@ -4,18 +4,19 @@ import mobileImg from "./assets/images/image-web-3-mobile.jpg"
 
 function Body() {
   return (
-    <div className=' container p-[20px] mx-auto max-w-[1100px] grid md:grid-cols-3 md:grid-row-2'>
-        <div className='md:col-span-2'>
+    <div className=' container p-[20px] mx-auto max-w-[1050px] grid lg:grid-cols-3 lg:grid-rows-[auto, auto] gap-4'>
+        <div className='lg:col-span-2'>
             <img className='md:hidden' src={mobileImg} alt="mobile Hero Section" />
             <img className='hidden md:block' src={desktopImg} alt='desktop hero section' />
         </div>
-        <div className='col-span2 row-start-2 flex'>
-            <h1 className='text-[45px] leading-[44px] font-bold'>The Bright Future of Web 3.0?</h1>
-            <p className='mt-[20px]'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-
-            <button className='bg-red-500 text-white px-8 py-2 tracking-widest my-6'>Read more</button>
+        <div className='lg:col-span-2 lg:row-start-2 lg:grid lg:grid-cols-2'>
+            <h1 className='text-[45px] lg:text-[50px] lg:leading-[50px] leading-[44px] font-bold lg:flex lg:items-center'>The Bright Future of Web 3.0?</h1>
+            <div >
+                <p className='mt-[20px] lg:mt-0'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+                <button className='bg-red-500 text-white px-8 py-2 tracking-widest my-6 lg:my-0 lg:mt-[30px]'>Read more</button>
+            </div>
         </div>
-        <div className='bg-[#0d0b22] text-white p-[18px] md:col-start-3 md:row-span-2 '>
+        <div className='bg-[#0d0b22] text-white p-[18px] lg:col-start-3 lg:row-span-2 '>
             <h2 className='text-[#d5c04a] text-[30px] font-bold pb-[8px]'>New</h2> 
             <div className='border-b border-[#e8dbdb] py-[20px]'>
                 <h4 className='font-bold text-[18px] pb-[10px]'>Hydrogen VS Electric Cars</h4>

@@ -5,7 +5,7 @@ import menuOpen from "./assets/images/icon-menu.svg";
 
 const Header: React.FC = () => {
   return (
-    <div className='flex justify-between items-center container h-[100px] p-[20px] mx-auto max-w-[1100px]'>
+    <div className='flex justify-between items-center container h-[100px] p-[20px] mx-auto max-w-[1050px]'>
         <div>
             <img src={logo} alt='logo' />
         </div>
