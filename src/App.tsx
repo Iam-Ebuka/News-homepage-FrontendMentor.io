@@ -1,4 +1,5 @@
 import Body from "./Body"
+import Bodycont from "./Bodycont"
 import Header from "./Header"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Body />
+      <Bodycont />
     </>
   )
 }
