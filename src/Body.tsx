@@ -4,16 +4,16 @@ import mobileImg from "./assets/images/image-web-3-mobile.jpg"
 
 function Body() {
   return (
-    <div className=' container p-[20px] mx-auto max-w-[1050px] grid lg:grid-cols-3 lg:grid-rows-[auto, auto] gap-4'>
+    <div className=' container p-[20px] mx-auto max-w-[1050px] grid lg:grid-cols-3 lg:grid-rows-[auto, auto] gap-4 text-[15px]'>
         <div className='lg:col-span-2'>
             <img className='md:hidden' src={mobileImg} alt="mobile Hero Section" />
             <img className='hidden md:block' src={desktopImg} alt='desktop hero section' />
         </div>
-        <div className='lg:col-span-2 lg:row-start-2 lg:grid lg:grid-cols-2'>
+        <div className='lg:col-span-2 lg:row-start-2 lg:flex lg:flex-col'>
             <h1 className='text-[45px] lg:text-[50px] lg:leading-[50px] leading-[44px] font-bold lg:flex lg:items-center'>The Bright Future of Web 3.0?</h1>
             <div >
                 <p className='mt-[20px] lg:mt-0'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
-                <button className='bg-red-500 text-white px-8 py-2 tracking-widest my-6 lg:my-0 lg:mt-[30px]'>Read more</button>
+                <button className='bg-red-500 text-white px-8 py-2 tracking-[3px] my-6 lg:my-0 lg:mt-[30px]'>READ MORE</button>
             </div>
         </div>
         <div className='bg-[#0d0b22] text-white p-[18px] lg:col-start-3 lg:row-span-2 '>

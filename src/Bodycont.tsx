@@ -5,10 +5,10 @@ import pad from './assets/images/image-gaming-growth.jpg'
 
 function Bodycont() {
   return (
-    <div className=' container p-[20px] mx-auto max-w-[1050px] flex flex-col md:flex-row gap-3 md:justify-between'>
+    <div className=' container p-[20px] mx-auto max-w-[1050px] flex flex-col md:flex-row gap-3 md:grid md:grid-cols-3 text-[15px]'>
         <div className='flex gap-5'>
             <div>
-                <img src={computer} alt=" computer" />
+                <img className='h-full w-full' src={computer} alt=" computer" />
             </div>
             <div className='space-y-1 flex flex-col justify-center'> 
                 <h3 className='text-[30px] text-[#8f8f8f] font-bold'>01</h3>
@@ -17,8 +17,8 @@ function Bodycont() {
             </div>
         </div>
         <div className='flex gap-5'>
-            <div>
-                <img src={keyboard} alt='keyboard image' />
+            <div style={{ backgroundImage: `url(${keyboard})` }} className='bg-cover bg-center h-full'>
+               {/**  <img className='h-full w-full' src={keyboard} alt='keyboard image' />*/}
             </div>
             <div>
                 <h3 className='text-[30px] text-[#8f8f8f] font-bold'>02</h3>
