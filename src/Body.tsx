@@ -9,9 +9,9 @@ function Body() {
             <img className='md:hidden' src={mobileImg} alt="mobile Hero Section" />
             <img className='hidden md:block' src={desktopImg} alt='desktop hero section' />
         </div>
-        <div className='lg:col-span-2 lg:row-start-2 lg:flex lg:flex-col'>
-            <h1 className='text-[45px] lg:text-[50px] lg:leading-[50px] leading-[44px] font-bold lg:flex lg:items-center'>The Bright Future of Web 3.0?</h1>
-            <div >
+        <div className='lg:col-span-2 lg:row-start-2 lg:flex lg:flex-row'>
+            <h1 className='text-[45px] lg:text-[50px] lg:leading-[50px] lg:w-[50%] leading-[44px] font-bold lg:flex lg:items-center'>The Bright Future of Web 3.0?</h1>
+            <div className='lg:w-[50%]' >
                 <p className='mt-[20px] lg:mt-0'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
                 <button className='bg-red-500 text-white px-8 py-2 tracking-[3px] my-6 lg:my-0 lg:mt-[30px]'>READ MORE</button>
             </div>
