@@ -1,6 +1,6 @@
 FrontendMentor.io News homepage challenge
 
-![Alt text](/src/assets/images/news-homepage-pic.png)
+![Alt text](./src/assets/images/news-homepage-pic.png)
 
 This challange challenge is to build out this news website homepage and get it looking as close to the design as possible.
 
