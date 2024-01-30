@@ -16,19 +16,19 @@ function Body() {
                 <button className='bg-red-500 text-white px-8 py-2 tracking-[3px] my-6 lg:my-0 lg:mt-[30px]'>READ MORE</button>
             </div>
         </div>
-        <div className='bg-[#0d0b22] text-white p-[18px] lg:col-start-3 lg:row-span-2 '>
+        <div className='bg-[#0d0b22] my-[20px] lg:my-0 text-white p-[18px] lg:col-start-3 lg:row-span-2 '>
             <h2 className='text-[#d5c04a] text-[30px] font-bold pb-[8px]'>New</h2> 
             <div className='border-b border-[#e8dbdb] py-[20px]'>
-                <h4 className='font-bold text-[18px] pb-[10px]'>Hydrogen VS Electric Cars</h4>
-                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                <h4 className='font-bold text-[18px] pb-[10px] cursor-pointer hover:text-[#d5c04a]'>Hydrogen VS Electric Cars</h4>
+                <p className='text-[#b8b6b0]'>Will hydrogen-fueled cars ever catch up to EVs?</p>
             </div>            
             <div className='border-b border-[#e8dbdb] py-[20px]'>
-                <h4 className='font-bold text-[18px] pb-[10px]'>The Downsides of AI Artistry</h4>
-                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                <h4 className='font-bold text-[18px] pb-[10px] cursor-pointer hover:text-[#d5c04a]'>The Downsides of AI Artistry</h4>
+                <p className='text-[#b8b6b0]'>What are the possible adverse effects of on-demand AI image generation?</p>
             </div>
             <div className='py-[20px]'>
-                <h4 className='font-bold text-[18px] pb-[10px]'>Is VC Funding Drying Up?</h4>
-                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                <h4 className='font-bold text-[18px] pb-[10px] cursor-pointer hover:text-[#d5c04a]'>Is VC Funding Drying Up?</h4>
+                <p className='text-[#b8b6b0]'>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
             </div>
         </div>
 

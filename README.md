@@ -1,3 +1,17 @@
+FrontendMentor.io News homepage challenge
+
+![Alt text](/src/assets/images/news-homepage-pic.png)
+
+This challange challenge is to build out this news website homepage and get it looking as close to the design as possible.
+
+I am allowed use any tools I like to help me complete the challenge. 
+
+Users should be able to:
+
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+Tools I used are:
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

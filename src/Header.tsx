@@ -26,11 +26,11 @@ const Header: React.FC = () => {
                     <img src={menuOpen} alt="Open the menu" />
                 </div>
                 <div className="hidden lg:flex lg:space-x-4">
-                    <a href='#home'>Home</a>
-                    <a href='#home'>New</a>
-                    <a href='#home'>Popular</a>
-                    <a href='#home'>Trending</a>
-                    <a href='#home'>Categories</a>
+                    <a className='hover:text-[#f34242]' href='#home'>Home</a>
+                    <a className='hover:text-[#f34242]' href='#home'>New</a>
+                    <a className='hover:text-[#f34242]' href='#home'>Popular</a>
+                    <a className='hover:text-[#f34242]' href='#home'>Trending</a>
+                    <a className='hover:text-[#f34242]' href='#home'>Categories</a>
                 </div>
             </div>
         </div>
@@ -46,11 +46,11 @@ const Header: React.FC = () => {
                     <img src={menuClose} alt='close the menu' />
                 </div>
                 <div className="flex flex-col pt-[100px] pl-[30px] space-y-3 font-[500]">
-                    <a href='#home'>Home</a>
-                    <a href='#home'>New</a>
-                    <a href='#home'>Popular</a>
-                    <a href='#home'>Trending</a>
-                    <a href='#home'>Categories</a>
+                    <a className='hover:text-[#f34242]' href='#'>Home</a>
+                    <a className='hover:text-[#f34242]' href='#'>New</a>
+                    <a className='hover:text-[#f34242]' href='#'>Popular</a>
+                    <a className='hover:text-[#f34242]' href='#'>Trending</a>
+                    <a className='hover:text-[#f34242]' href='#'>Categories</a>
                 </div>
             </div>
         </div>}
