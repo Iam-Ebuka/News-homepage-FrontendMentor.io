@@ -3,7 +3,7 @@ import computer from './assets/images/image-retro-pcs.jpg'
 import keyboard from './assets/images/image-top-laptops.jpg'
 import pad from './assets/images/image-gaming-growth.jpg'
 
-function Bodycont() {
+const Bodycont: React.FC = () => {
   return (
     <div className=' container p-[20px] mx-auto max-w-[1050px] flex flex-col md:flex-row gap-7 lg:gap-3 md:grid md:grid-cols-3 text-[15px]'>
         <div className='grid grid-cols-3 gap-2'>

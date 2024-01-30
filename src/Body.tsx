@@ -2,7 +2,7 @@ import React from 'react'
 import desktopImg from "./assets/images/image-web-3-desktop.jpg"
 import mobileImg from "./assets/images/image-web-3-mobile.jpg"
 
-function Body() {
+const Body: React.FC = () => {
   return (
     <div className=' container p-[20px] mx-auto max-w-[1050px] grid lg:grid-cols-3 lg:grid-rows-[auto, auto] gap-4 text-[15px]'>
         <div className='lg:col-span-2'>
